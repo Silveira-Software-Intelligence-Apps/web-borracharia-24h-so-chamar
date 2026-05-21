@@ -73,7 +73,7 @@ export default function Home() {
       {/* ── SOBRE + IMAGEM ── */}
       <section id="sobre" className="story-beat" data-story-beat="sobre" style={{ padding: '104px 28px' }}>
         <div style={{ maxWidth: '1160px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '72px', alignItems: 'center' }} className="grid-2-responsive">
-          <div className="reveal motion-reveal">
+          <div className="reveal motion-reveal motion-reveal">
             <span className="section-label">Confiança</span>
             <h2 className="section-title">Experiência que Resolve</h2>
             <p style={{ color: '#999999', lineHeight: 1.85, fontSize: '1.05rem', marginBottom: '32px' }}>
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <a href="https://wa.me/555511967342602?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" className="btn-wa">Pedir orcamento →</a>
           </div>
-          <div className="reveal motion-reveal motion-parallax reveal-delay-2" style={{ position: 'relative' }}>
+          <div className="reveal motion-reveal motion-parallax reveal-delay-2 motion-reveal" style={{ position: 'relative' }}>
             <div className="cinematic-frame" style={{ borderRadius: '24px', overflow: 'hidden', height: '520px', boxShadow: '0 32px 64px #0a0a0a99' }}>
               <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #0a0a0a88, transparent 60%)' }} />
@@ -132,7 +132,7 @@ export default function Home() {
             <p style={{ color: '#999999', fontSize: '1rem', maxWidth: '460px', margin: '0 auto', lineHeight: 1.7 }}>Resultado real, avaliado por quem já precisou.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="grid-responsive">
-        <div className="review-card reveal motion-reveal reveal-delay-1">
+        <div className="review-card reveal motion-reveal reveal-delay-1 motion-reveal">
           <div style={{ color: '#f97316', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★★</div>
           <p style={{ color: '#999999', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"Levei o carro na Borracharia 24h Só Chamar e resolveram rápido. Orçamento justo, sem surpresa na hora de pagar. Virei cliente fiel."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #222222', paddingTop: '16px' }}>
@@ -143,7 +143,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="review-card reveal motion-reveal reveal-delay-2">
+        <div className="review-card reveal motion-reveal reveal-delay-2 motion-reveal">
           <div style={{ color: '#f97316', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★★</div>
           <p style={{ color: '#999999', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"Confiança é tudo nesse ramo e a equipe da Borracharia 24h Só Chamar passou credibilidade desde o primeiro contato. Melhor oficina em Osasco."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #222222', paddingTop: '16px' }}>
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="review-card reveal motion-reveal reveal-delay-3">
+        <div className="review-card reveal motion-reveal reveal-delay-3 motion-reveal">
           <div style={{ color: '#f97316', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★</div>
           <p style={{ color: '#999999', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"Atendimento rápido, mecânico honesto e peças de qualidade. Recomendo para quem precisa de confiança."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #222222', paddingTop: '16px' }}>
@@ -224,7 +224,7 @@ export default function Home() {
             <h2 className="section-title">Perguntas Comuns</h2>
           </div>
           <div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -237,7 +237,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Sim! O orçamento é 100% gratuito e sem compromisso. Traga o veículo ou envie os dados pelo WhatsApp.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-2">
+        <div className="faq-item reveal motion-reveal reveal-delay-2 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -250,7 +250,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Serviços rápidos no mesmo dia. Revisões completas com prazo combinado no orçamento.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -263,7 +263,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Todos os serviços têm garantia. Trabalhamos com peças originais e de qualidade.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-2">
+        <div className="faq-item reveal motion-reveal reveal-delay-2 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -276,7 +276,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Aceitamos dinheiro, cartão, PIX e parcelamos no cartão em até 6x sem juros.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -308,12 +308,12 @@ export default function Home() {
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="grid-responsive">
-        <div className="card reveal motion-reveal reveal-delay-1">
+        <div className="card reveal motion-reveal reveal-delay-1 motion-reveal">
           <div className="card-icon">🔍</div>
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5f5f5', marginBottom: '8px' }}>Fornecedor de produtos de borracha</h3>
           <p style={{ fontSize: '0.875rem', color: '#999999', lineHeight: 1.7 }}>Fornecedor de produtos de borracha com atendimento direto da Borracharia 24h Só Chamar. em Osasco</p>
         </div>
-        <div className="card reveal motion-reveal reveal-delay-2">
+        <div className="card reveal motion-reveal reveal-delay-2 motion-reveal">
           <div className="card-icon">🔧</div>
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5f5f5', marginBottom: '8px' }}>Borracharia</h3>
           <p style={{ fontSize: '0.875rem', color: '#999999', lineHeight: 1.7 }}>Borracharia pensado para quem procura Borracharia em Osasco.</p>
@@ -329,17 +329,17 @@ export default function Home() {
       <div className="divider-gradient" />
       <section className="story-beat" data-story-beat="stats" style={{ background: '#111111', borderBottom: '1px solid #222222' }}>
         <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 28px', display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0', divideX: '1px solid #222222' }}>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#f97316', lineHeight: 1 }}>15+</div>
           <div style={{ width: '32px', height: '2px', background: '#f97316', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#999999' }}>Anos no mercado</div>
         </div>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#f97316', lineHeight: 1 }}>10k+</div>
           <div style={{ width: '32px', height: '2px', background: '#f97316', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#999999' }}>Veículos atendidos</div>
         </div>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#f97316', lineHeight: 1 }}>4.2★</div>
           <div style={{ width: '32px', height: '2px', background: '#f97316', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#999999' }}>Google (40 avaliações)</div>
@@ -381,22 +381,22 @@ export default function Home() {
             </p>
           </div>
           <div className="gallery-grid">
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1 motion-reveal">
           <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 1" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2 motion-reveal">
           <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 2" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3 motion-reveal">
           <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 3" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1 motion-reveal">
           <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 4" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2 motion-reveal">
           <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 5" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3 motion-reveal">
           <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80&auto=format&fit=crop" alt="Borracharia 24h Só Chamar — foto 6" loading="lazy" />
         </div>
           </div>
