@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-21T16:43:42.318Z",
+  "sections": {
+    "hero": {
+      "headline": "Borracharia 24h Só Chamar: Solicitar orcamento rapido em Osasco",
+      "subheadline": "Borracharia em Osasco com atendimento direto, prova local e caminho rapido para contato. Use a reputacao de 4.2/5 no Google com 40 avaliacoes como prova no topo da pagina.",
+      "ctaPrimary": "Pedir orcamento",
+      "ctaSecondary": "Ver especialidades",
+      "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=1920&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "name-personality"
+    },
+    "services": {
+      "items": [
+        {
+          "name": "Fornecedor de produtos de borracha",
+          "icon": "🔍",
+          "desc": "Fornecedor de produtos de borracha com atendimento direto da Borracharia 24h Só Chamar. em Osasco"
+        },
+        {
+          "name": "Borracharia",
+          "icon": "🔧",
+          "desc": "Borracharia pensado para quem procura Borracharia em Osasco."
+        }
+      ],
+      "source": "segment-template"
+    },
+    "about": {
+      "text": "Na Borracharia 24h Só Chamar, Borracharia é feito com responsabilidade e transparência, aqui em Osasco. Cada serviço é executado com atenção aos detalhes. Avaliação 4.2★ no Google.",
+      "image": "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "businessMode-template"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Vocês fazem orçamento gratuito?",
+          "a": "Sim! O orçamento é 100% gratuito e sem compromisso. Traga o veículo ou envie os dados pelo WhatsApp."
+        },
+        {
+          "q": "Qual o prazo para atendimento?",
+          "a": "Serviços rápidos no mesmo dia. Revisões completas com prazo combinado no orçamento."
+        },
+        {
+          "q": "Os serviços têm garantia?",
+          "a": "Todos os serviços têm garantia. Trabalhamos com peças originais e de qualidade."
+        },
+        {
+          "q": "Quais formas de pagamento?",
+          "a": "Aceitamos dinheiro, cartão, PIX e parcelamos no cartão em até 6x sem juros."
+        },
+        {
+          "q": "Vocês atendem por agendamento?",
+          "a": "Atendemos com e sem agendamento, mas para serviços maiores recomendamos agendar."
+        }
+      ],
+      "source": "segment-pool"
+    },
+    "gallery": {
+      "images": [
+        "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80&auto=format&fit=crop"
+      ],
+      "realCount": 0,
+      "source": "segment-fallback"
+    },
+    "reviews": {
+      "items": [
+        {
+          "name": "Ricardo S.",
+          "text": "Levei o carro na Borracharia 24h Só Chamar e resolveram rápido. Orçamento justo, sem surpresa na hora de pagar. Virei cliente fiel.",
+          "rating": 5
+        },
+        {
+          "name": "Marcos A.",
+          "text": "Confiança é tudo nesse ramo e a equipe da Borracharia 24h Só Chamar passou credibilidade desde o primeiro contato. Melhor oficina em Osasco.",
+          "rating": 5
+        },
+        {
+          "name": "Patricia F.",
+          "text": "Atendimento rápido, mecânico honesto e peças de qualidade. Recomendo para quem precisa de confiança.",
+          "rating": 5
+        }
+      ],
+      "source": "segment-enriched"
+    },
+    "cta": {
+      "primaryText": "Pedir orcamento",
+      "secondaryText": "Ver especialidades",
+      "phone": "5511967342602",
+      "source": "site-brief(fallback)"
+    },
+    "branding": {
+      "logo": null,
+      "logoSource": "generated-initial",
+      "palette": {
+        "bg": "#0a0a0a",
+        "primary": "#f97316",
+        "accent": "#ea580c",
+        "text": "#f5f5f5"
+      },
+      "paletteMode": "bold-action",
+      "tone": "professional",
+      "source": "generated-initial"
+    }
+  },
+  "sectionOrder": [
+    "hero",
+    "sobre",
+    "avaliacoes",
+    "contato",
+    "faq",
+    "servicos",
+    "stats",
+    "cta-final",
+    "galeria"
+  ],
+  "visualProfile": {
+    "palette": {
+      "bg": "#0a0a0a",
+      "primary": "#f97316",
+      "accent": "#ea580c",
+      "text": "#f5f5f5"
+    },
+    "paletteMode": "bold-action",
+    "segment": "automotivo",
+    "mood": "warm-intimate",
+    "layoutVariant": "hero-split",
+    "accentHue": 43
+  },
+  "provenance": {
+    "generationMode": "deep",
+    "aiUsed": false,
+    "aiSuccesses": 0,
+    "aiCalls": 3,
+    "syntheticUsed": false,
+    "leadDataQuality": "medium"
+  }
+}

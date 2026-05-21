@@ -1,0 +1,162 @@
+{
+  "version": "site-brief-v1",
+  "source": "deterministic-ai-fallback",
+  "generatedAt": "2026-05-21T16:42:06.114Z",
+  "business": {
+    "name": "Borracharia 24h Só Chamar",
+    "niche": "Borracharia",
+    "city": "Osasco",
+    "phone": "5511967342602",
+    "website": "https://web-borracharia-24h-s-cha-git-af7c3b-silveirasoftwares-projects.vercel.app",
+    "instagram": ""
+  },
+  "research": {
+    "source": "crm",
+    "placeId": "",
+    "googleMapsUrl": "",
+    "categories": [
+      "Fornecedor de produtos de borracha",
+      "Borracharia"
+    ],
+    "location": {
+      "cidade": "Osasco",
+      "estado": "São Paulo",
+      "bairro": "Jardim Teresa",
+      "endereco": "Av. Victor Civita, 14 - Jardim Teresa, Osasco - SP, 06140-270, Brasil",
+      "latitude": null,
+      "longitude": null
+    },
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "website": "https://web-borracharia-24h-s-cha-git-af7c3b-silveirasoftwares-projects.vercel.app"
+    },
+    "google": {
+      "rating": 4.2,
+      "reviews": 40,
+      "isAd": false,
+      "openNow": null,
+      "hours": [],
+      "price": "",
+      "photos": 0,
+      "comments": 0
+    },
+    "semantic": {
+      "segment": "automotivo",
+      "businessMode": "local-service",
+      "salesModel": "urgency-trust",
+      "customerIntent": "resolver-urgente",
+      "paletteMode": "bold-action",
+      "conversionGoal": ""
+    }
+  },
+  "market": {
+    "segment": "automotivo",
+    "customerIntent": "resolver-urgente",
+    "buyerPain": "quando o carro da problema, o cliente procura rapidez e confianca",
+    "desiredOutcome": "mais orcamentos de clientes prontos para resolver",
+    "localAngle": "Busca local em Osasco",
+    "seoKeywords": [
+      "Borracharia Osasco",
+      "Borracharia 24h Só Chamar Osasco",
+      "Fornecedor de produtos de borracha Osasco"
+    ]
+  },
+  "proof": [
+    "4.2/5 no Google com 40 avaliacoes",
+    "Atendimento em Osasco",
+    "Presenca no bairro Jardim Teresa",
+    "Site atual encontrado para evolucao"
+  ],
+  "copy": {
+    "tone": "direto, confiavel, tecnico",
+    "primaryHook": "Borracharia 24h Só Chamar: Solicitar orcamento rapido em Osasco",
+    "heroHeadline": "Borracharia 24h Só Chamar: Solicitar orcamento rapido em Osasco",
+    "subheadline": "Borracharia em Osasco com atendimento direto, prova local e caminho rapido para contato. Use a reputacao de 4.2/5 no Google com 40 avaliacoes como prova no topo da pagina.",
+    "offer": "Solicitar orcamento rapido",
+    "primaryCta": "Pedir orcamento",
+    "secondaryCta": "Ver especialidades",
+    "objectionHandlers": [
+      "Mostrar atendimento pelo WhatsApp antes de pedir compromisso.",
+      "Usar fotos reais para reduzir desconfianca.",
+      "Colocar prova social perto dos CTAs."
+    ],
+    "services": [
+      {
+        "name": "Fornecedor de produtos de borracha",
+        "benefit": "Fornecedor de produtos de borracha com atendimento direto da Borracharia 24h Só Chamar."
+      },
+      {
+        "name": "Borracharia",
+        "benefit": "Borracharia pensado para quem procura Borracharia em Osasco."
+      }
+    ]
+  },
+  "conversion": {
+    "goal": "evoluir site existente e gerar mais contatos",
+    "offer": "Solicitar orcamento rapido",
+    "frictionReducers": [
+      "WhatsApp sempre visivel",
+      "mapa/localizacao",
+      "prova social",
+      "perguntas frequentes"
+    ]
+  },
+  "visualDirection": {
+    "style": "bold-direct",
+    "palette": "bold-action",
+    "motion": "GSAP ScrollTrigger, reveal cinematografico, parallax leve e performance first",
+    "imageStrategy": "gerar hero/logo com IA usando prompts do plano de assets"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "goal": "Explicar valor em 5 segundos e abrir WhatsApp.",
+      "priority": 1
+    },
+    {
+      "id": "proof",
+      "goal": "Mostrar rating, cidade, comentarios e fotos reais.",
+      "priority": 2
+    },
+    {
+      "id": "services",
+      "goal": "Transformar categorias do Google em beneficios compraveis.",
+      "priority": 3
+    },
+    {
+      "id": "about",
+      "goal": "Dar contexto humano e local sem texto generico.",
+      "priority": 4
+    },
+    {
+      "id": "faq",
+      "goal": "Responder objecoes de preco, horario, localizacao e atendimento.",
+      "priority": 5
+    },
+    {
+      "id": "cta",
+      "goal": "Repetir acao principal quando o visitante ja entendeu o valor.",
+      "priority": 6
+    }
+  ],
+  "readiness": {
+    "score": 82,
+    "tier": "hot",
+    "reasons": [
+      "telefone",
+      "nicho",
+      "local",
+      "prova social",
+      "volume de reviews",
+      "presenca digital"
+    ],
+    "missing": [
+      "fotos reais",
+      "descricao do negocio",
+      "instagram"
+    ]
+  },
+  "aiProviderUsed": false,
+  "aiError": "Todos os provedores/modelos falharam para landingPageStrategy: LM Studio falhou após 3 tentativas: "
+}

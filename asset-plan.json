@@ -1,0 +1,52 @@
+{
+  "version": "site-asset-plan-v1",
+  "status": "prompt-ready",
+  "provider": "prompt-only",
+  "model": "",
+  "generationEnabled": false,
+  "realImageCount": 0,
+  "hero": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic landing-page hero image for \"Borracharia 24h Só Chamar\", a Borracharia in Osasco, Brazil. Commercial angle: Borracharia 24h Só Chamar: Solicitar orcamento rapido em Osasco. Offer context: Solicitar orcamento rapido. Trust signals to inspire the scene: 4.2/5 no Google com 40 avaliacoes, Atendimento em Osasco, Presenca no bairro Jardim Teresa, Site atual encontrado para evolucao. Mood: practical, high-trust, technical, cinematic workshop detail shots. Details: metal, clean tools, vehicle closeups, inspection lights. Wide 16:9 composition, room for headline overlay, premium editorial lighting, realistic photo, high detail. Avoid: dirty chaotic garage, racing cliches, generic sports car wallpaper."
+  },
+  "about": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "4:3",
+    "prompt": "Authentic about-section image for \"Borracharia 24h Só Chamar\", Borracharia in Osasco, Brazil. Show the real service environment through metal, clean tools, vehicle closeups, inspection lights. Human, trustworthy, professional, no text, no watermark, realistic photography."
+  },
+  "logo": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "1:1",
+    "transparentBackground": true,
+    "prompt": "Create a professional logo for \"Borracharia 24h Só Chamar\", a Borracharia in Osasco, Brazil. Style: distinct local brand mark, simple symbol, memorable wordmark. Readable wordmark, original icon, vector-like, transparent background, no mockup. Avoid generic clipart, overused gradients, illegible typography, fake 3D emboss."
+  },
+  "gallery": [
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "4:5",
+      "prompt": "Supporting gallery image for \"Borracharia 24h Só Chamar\", Borracharia in Osasco, Brazil. Mood: practical, high-trust, technical, cinematic workshop detail shots. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 1."
+    },
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "1:1",
+      "prompt": "Supporting gallery image for \"Borracharia 24h Só Chamar\", Borracharia in Osasco, Brazil. Mood: practical, high-trust, technical, cinematic workshop detail shots. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 2."
+    },
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "1:1",
+      "prompt": "Supporting gallery image for \"Borracharia 24h Só Chamar\", Borracharia in Osasco, Brazil. Mood: practical, high-trust, technical, cinematic workshop detail shots. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 3."
+    }
+  ],
+  "notes": [
+    "No real images found; AI prompts are ready.",
+    "Image provider disabled; prompts are stored for generation later.",
+    "Logo prompt is intentionally vector-like for later SVG/PNG use."
+  ]
+}
